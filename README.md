@@ -1,6 +1,5 @@
 # r_graphics
 
-
 How to setup cron on windows
 
 Required: R 4.2.2 or later on your local PC. Get it application from the Apps Portal.
