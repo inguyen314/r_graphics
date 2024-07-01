@@ -11,7 +11,7 @@ Step 2. Extract the zip. You should have a folder called "r_graphics".
 Step 3. Open "MVS_ReservoirStatusGraphics.R" in "r_graphics" with a text editor and make changes to 4 lines of code. 
 
 Step 4. Edit "MVS_ReservoirStatusGraphics.R". 
-        Chnage the path at 4 locations at line 64,65,68, and 69 to match where you extracted the "r_graphics" folder. Save and edit text editor. 
+        Chnage the path at "graphicDirectory", "img1", "img2" to match where you extracted the "r_graphics" folder. Save and edit text editor. 
 
 Step 5. Right Click on "RunMyRScript.bat" and select "Edit"
         Edit line 4 "C:\Program Files\R\R-4.2.2\bin\Rscript.exe". make sure the path to "Rscript.exe" is correct. Save and exit.
