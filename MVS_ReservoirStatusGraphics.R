@@ -3,23 +3,6 @@
 ## Date Created: 01/25/2024
 ## Instructions: Change variables Under Line 28 to appropriate variables to run the script.You Will also need to 
 ## ready in JSON file, NO web scraping
-## version 3: replaced location levels in JSON
-## version 4: have all data read from JSON
-## version 5. working with MVS JSON files
-## version 6. add crest data with new JSON file. Add Precipitation and Generation
-## version 7. Add Gen/Turbine for Mark Twain. Fix legend
-## version 8. fixed gradient bar issue. you have perc_full_labels2 going from [[i]][1] to [[i]][5].
-##            Up above, you define perc_full_labels2 as a data.frame with 4 items (ark_perc_full, sard_perc_full, enid_perc_full, gren_perc_full).
-##            You are trying to reference the fifth item in an array that is only holding 4 items, thus your subscript is out of bounds.
-## Version 9. Change Mark Twain circle and arrow to the same color (skyblue2) and arrow.
-##            Add pdf(file) path to run in task scheduler. 
-## Version 10. Fix precip legend. 
-## Version 11. Add spill, Total, and Remove Gen. Add envir variables
-## Version 12. Add languageserver package and verify spillway.
-## Version 13. Change Json file to grab yesterday gen, spill and total. Add lable to show that they are yesterday values. 
-##             dynamilly display legend
-
-
 ## TODO: save to pdf, how?
 ##       perc_full_labels2 values mean?
 
