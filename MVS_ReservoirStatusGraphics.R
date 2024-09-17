@@ -1,11 +1,3 @@
-## Script Objective: Create the Reservoir Status Graphics for MVS Water Control
-## Script Author: Melinda Pullman Revised By: Ivan Nguyen
-## Date Created: 01/25/2024
-## Instructions: Change variables Under Line 28 to appropriate variables to run the script.You Will also need to 
-## ready in JSON file, NO web scraping
-## TODO: save to pdf, how?
-##       perc_full_labels2 values mean?
-
 ####################### Import Packages #######################
 # List of required packages
 required_packages <- c("ggplot2", "numform", "plyr", "dplyr", "lubridate", 
