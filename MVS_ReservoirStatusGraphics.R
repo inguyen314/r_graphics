@@ -42,12 +42,12 @@ get_png <- function(filename) {
 
 ####################### CHANGE THESE VARIABLES TO RUN SCRIPT #######################
 if (Sys.getenv("USERNAME") == "B3ECHIHN") {
-  graphicDirectory <- 'C:/Users/B3ECHIHN/Documents/water_control/web/rebuild_internal_web/r_graphics/'
-           pdf(file = 'C:/Users/B3ECHIHN/Documents/water_control/web/rebuild_internal_web/r_graphics/Rplots.pdf')
+  graphicDirectory <- 'C:/Users/B3ECHIHN/OneDrive - US Army Corps of Engineers/Documents/water_control/web/rebuild_internal_web/r_graphics/'
+           pdf(file = 'C:/Users/B3ECHIHN/OneDrive - US Army Corps of Engineers/Documents/water_control/web/rebuild_internal_web/r_graphics/Rplots.pdf')
   
   # Define Location for Supporting Images
-  img1 <- get_png("C:/Users/B3ECHIHN/Documents/water_control/web/rebuild_internal_web/r_graphics/cloud.png")
-  img2 <- get_png("C:/Users/B3ECHIHN/Documents/water_control/web/rebuild_internal_web/r_graphics/usace_mvs_logo.png")
+  img1 <- get_png("C:/Users/B3ECHIHN/OneDrive - US Army Corps of Engineers/Documents/water_control/web/rebuild_internal_web/r_graphics/cloud.png")
+  img2 <- get_png("C:/Users/B3ECHIHN/OneDrive - US Army Corps of Engineers/Documents/water_control/web/rebuild_internal_web/r_graphics/usace_mvs_logo.png")
 } else {
   graphicDirectory <- 'C:/wc/r_graphics/'
   pdf(file = 'C:/wc/r_graphics/Rplots.pdf')
